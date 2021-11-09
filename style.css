@@ -108,7 +108,7 @@ ul i {
     display: flex;
     align-items: center;
     position: relative;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .navbar ul li {
