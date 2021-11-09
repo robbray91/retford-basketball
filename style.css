@@ -252,7 +252,7 @@ footer a:focus {
 
 
 
-@media (min-width: 660px) {
+@media (min-width: 681px) {
     nav ul {
         flex-direction: row;
         justify-content: space-evenly;
