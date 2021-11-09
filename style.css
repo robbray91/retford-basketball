@@ -155,8 +155,9 @@ ul a {
 }
 
 .container h2 {
-    font-size: 2rem;
+    font-size: 2.1rem;
     padding: 2rem 0;
+    text-decoration: underline;
 }
 
 .row {
@@ -186,6 +187,11 @@ ul a {
     max-width: 20ch;
 }
 
+.results-container {
+    display: flex;
+    flex-direction: column;
+}
+
 .news-posts {
     columns: 500px 2;
     margin: 0 auto;
@@ -211,15 +217,27 @@ ul a {
     padding: 1rem 0;
 }
 
+.container-results {
+    background-color: orangered;
+}
+
+.results-container-header {
+    padding-top: 2rem;
+    color: white;
+    text-decoration: underline;
+    font-size: 2.1rem;
+}
+
 .latest-results {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
     text-align: center;
-    padding: 1.5rem 0;
-    background-color: orangered;
+    padding: 0;
     color: white;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .last-result {
@@ -232,6 +250,7 @@ ul a {
 
 .home-team-score, .away-team-score {
     margin: 1rem 0;
+    font-size: larger;
 }
 
 .next-game {
@@ -260,6 +279,10 @@ ul a {
     background: white;
     border: 2px solid orangered;
     transition: all .3s;
+}
+
+.sbl-info {
+    line-height: 2;
 }
 
 .training-info {
@@ -328,6 +351,9 @@ footer a:focus {
     .header-li {
         display: inherit;
     }
+    .results-container {
+        flex-direction: row;
+    }
     .news-posts {
         max-width: 1200px;
         columns: 300px 2;
@@ -390,12 +416,12 @@ footer a:focus {
         padding: 5rem 2.5rem;
     }
     .training-info-p {
-        font-size: 1.5rem;
+        font-size: 1.35rem;
         max-width: 30ch;
         margin: 0 auto;
     }
     .contact {
-        font-size: 2rem;
+        font-size: 1.7rem;
     }
     .news-posts {
         max-width: 1200px;
