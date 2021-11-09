@@ -301,7 +301,12 @@ footer a:focus {
     }
     .training-info-p, .contact {
         font-size: 1.55rem;
-        max-width: 90%;
+        max-width: 1200px;
         margin: 0 auto;
+    }
+    .news-posts,
+    .training-info {
+    max-width: 1200px;
+    margin: 0 auto;
     }
 }
