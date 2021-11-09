@@ -4,7 +4,6 @@ Author: Rob
 Version: 1.0
 */
 
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
 
 /* 
 
@@ -102,7 +101,9 @@ ul li {
 
 .navbar ul {
     display: flex;
+    align-items: center;
     position: relative;
+    justify-content: space-between;
 }
 
 .navbar ul li {
@@ -128,6 +129,10 @@ ul a {
 
 .header-li {
     display: none;
+}
+
+.hamburger-li {
+    margin-right: 2rem;
 }
 
 .news-posts {
