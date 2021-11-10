@@ -216,6 +216,7 @@ ul a {
     padding: 2rem 0;
     max-width: 400px;
     margin: 0 auto;
+    line-height: 1.8;
 }
 
 .news-container h2 {
@@ -239,6 +240,7 @@ ul a {
 
 .news-p {
     padding: 1rem 0;
+    line-height: 1.8;
 }
 
 .news-p-link {
