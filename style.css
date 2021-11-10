@@ -241,6 +241,7 @@ ul a {
 .news-p {
     padding: 1rem 0;
     line-height: 1.8;
+    font-size: 1.125rem;
 }
 
 .news-p-link {
@@ -458,6 +459,13 @@ footer {
         font-size: larger;
         padding: 5rem 0;
     }
+    .contact-h3 {
+        font-size: 2rem;       
+    }
+        
+    footer h3 {
+        font-size: 2rem;
+    }
     footer {
         font-size: larger;
         padding: 10rem 0;
@@ -480,6 +488,14 @@ footer {
     .container-contact {
         font-size: larger;
         padding: 10rem 0;
+    }
+
+    .contact-h3 {
+    font-size: 2.5rem;
+    }
+    
+    footer h3 {
+        font-size: 2.5rem;
     }
     footer {
         font-size: larger;
