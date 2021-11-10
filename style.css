@@ -233,6 +233,8 @@ ul a {
 
 .news-post {
     padding: 2rem 2rem 0 2rem;
+    max-width: 450px;
+    margin: 0 auto;
 }
 
 .news-p {
@@ -340,7 +342,7 @@ ul a {
 }
 
 .col {
-    padding: 0 3rem;
+    padding: 2rem 3rem 0 3rem;
     flex-wrap: wrap;
 }
 
