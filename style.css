@@ -275,8 +275,12 @@ ul a {
     padding: 1rem 0;
 }
 
-.last-result-header, .next-game-header {
+.last-result-header {
     margin-bottom: 1rem;
+}
+
+.next-game-header {
+    margin-bottom: 2rem;
 }
 
 .home-team-score, .away-team-score {
