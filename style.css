@@ -479,6 +479,7 @@ footer {
 @media (min-width: 1000px) { 
     .latest-results {
         padding: 5rem 0;
+        max-width: 1500px;
     }
     .latest-results {
         font-size: larger;
