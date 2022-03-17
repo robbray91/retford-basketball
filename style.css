@@ -82,6 +82,10 @@ ul i {
     color: white;
 }
 
+.hero-image {
+    background-color: var(--retford-black);
+}
+
 .hero-img {
     filter: brightness(30%);
     background-size: cover;
