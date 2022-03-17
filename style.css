@@ -85,6 +85,7 @@ ul i {
 .hero-img {
     filter: brightness(30%);
     background-size: cover;
+    margin: 0 auto;
 }
 
 .hero-image-overlay {
